@@ -1,0 +1,16 @@
+HTTrack3.48-22+htsswf+htsjava launched on Wed, 19 Apr 2017 09:32:52 at https://www.w3schools.com/js/default.asp +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "pt_BR, en, *" https://www.w3schools.com/js/default.asp -O1 "C:\Meus Sites\W3 Schools - Java Script" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+09:48:43	Error: 	"Forbidden" (403) at link https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit (from https://www.w3schools.com/js/default.asp)
+09:48:44	Error: 	"Not Found" (404) at link https://www.w3schools.com/js/GET (from https://www.w3schools.com/js/js_ajax_intro.asp)
+09:49:52	Error: 	"Not Found" (404) at link https://www.w3schools.com/js/POST (from https://www.w3schools.com/js/js_json_html.asp)
+09:50:08	Error: 	"Not Found" (404) at link https://www.w3schools.com/js/xmlhttp_info.txt (from https://www.w3schools.com/js/tryit.asp?filename=tryjs_ajax_xmlhttprequest_ie)
+09:50:10	Error: 	"Not Found" (404) at link https://www.w3schools.com/js/image.gif (from https://www.w3schools.com/js/tryit.asp?filename=tryjs_events_onerror)
+
+HTTrack Website Copier/3.48-22 mirror complete in 17 minutes 18 seconds : 1125 links scanned, 1119 files written (52443825 bytes overall) [15842865 bytes received at 15262 bytes/sec], 52407892 bytes transferred using HTTP compression in 1119 files, ratio 27%
+(5 errors, 0 warnings, 0 messages)

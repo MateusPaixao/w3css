@@ -1,0 +1,21 @@
+HTTrack3.48-22+htsswf+htsjava launched on Wed, 19 Apr 2017 14:48:03 at https://www.w3schools.com/jquery/default.asp +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "pt_BR, en, *" https://www.w3schools.com/jquery/default.asp -O1 "C:\Meus Sites\W3 Schools - JQuery" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+14:58:28	Error: 	"Forbidden" (403) at link https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit (from https://www.w3schools.com/jquery/default.asp)
+15:00:02	Error: 	"Not Found" (404) at link https://www.w3schools.com/jquery/test.txt (from https://www.w3schools.com/jquery/jquery_ajax_load.asp)
+15:07:04	Error: 	"Not Found" (404) at link https://www.w3schools.com/jquery/POST (from https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_hide)
+15:07:04	Error: 	"Not Found" (404) at link https://www.w3schools.com/jquery/GET (from https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_hide)
+15:07:23	Warning: 	Retry after error 504 (Gateway Timeout) at link https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_html_before_func (from https://www.w3schools.com/jquery/html_before.asp)
+15:07:43	Error: 	"Not Found" (404) at link https://www.w3schools.com/jquery/errorimg.gif (from https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_event_error)
+15:07:43	Warning: 	Retry after error 504 () at link https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_html_before_func (from https://www.w3schools.com/jquery/html_before.asp)
+15:07:43	Error: 	"Not Found" (404) at link https://www.w3schools.com/jquery/wrongfile.txt (from https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_ajax_ajaxerror)
+15:07:43	Error: 	"Not Found" (404) at link https://www.w3schools.com/jquery/wrongname.xml (from https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_ajax_load_err)
+15:07:43	Error: 	"" (504) after 2 retries at link https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_html_before_func (from https://www.w3schools.com/jquery/html_before.asp)
+
+HTTrack Website Copier/3.48-22 mirror complete in 19 minutes 40 seconds : 1017 links scanned, 1006 files written (49928480 bytes overall) [15268966 bytes received at 12939 bytes/sec], 49348202 bytes transferred using HTTP compression in 999 files, ratio 27%
+(8 errors, 2 warnings, 0 messages)

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pr-BR">
+<head>
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<link rel="stylesheet" type="text/css" href="_css/w3-v4.css"/>
+	<style type="text/css" media="screen">
+		body {
+			background-color: #000; 
+		}
+	</style>
+	<script>
+		function openSidebar() {
+		    document.getElementById("mySidebar").style.display = "block";
+		    document.getElementById("myButton").style.display = "none";
+		}
+
+		function closeSidebar() {
+		    document.getElementById("mySidebar").style.display = "none";
+		    document.getElementById("myButton").style.display = "block";
+		}
+
+		window.onload = function(){ 
+		    openSidebar();
+		}
+	</script>
+	<title>Home | Site</title>
+</head>
+<body>
+	<div class="w3-container">
+		<div class="w3-row">
+			<div class="w3-bar w3-black" id="mySidebar">
+				<a href="javascript:void(0)" onclick="closeSidebar()" class="w3-button w3-display-topright w3-xlarge">X</a>
+				<a href="index.html" class="w3-bar-item w3-button w3-mobile w3-hover-green w3-padding-32">Home</a>
+				<a href="W3 Schools - Bootstrap 3/www.w3schools.com/bootstrap/default.html" class="w3-bar-item w3-button w3-mobile w3-hover-blue w3-padding-32">Bootstrap 3</a>
+				<a href="W3 Schools - Java Script/www.w3schools.com/js/default.html" class="w3-bar-item w3-button w3-mobile w3-hover-teal w3-padding-32">Java Script</a>
+				<a href="W3 Schools - JQuery/www.w3schools.com/jquery/default.html" class="w3-bar-item w3-button w3-mobile w3-hover-pink w3-padding-32">JQuery</a>
+				<a href="W3 Schools - PHP/www.w3schools.com/php/default.html" class="w3-bar-item w3-button w3-mobile w3-hover-cyan w3-padding-32">PHP</a>
+				<a href="W3 Schools - W3.CSS/www.w3schools.com/w3css/default.html" class="w3-bar-item w3-button w3-mobile w3-hover-lime w3-padding-32">W3 CSS</a>
+			</div>
+		</div>
+		<div class="w3-row">
+			<header class="w3-bar w3-card w3-theme">
+				<button class="w3-bar-item w3-xlarge w3-display-topleft" style="position:fixed;" onclick="openSidebar()" id="myButton">&#9776;</button>
+				<h1 class="w3-bar-item">Movies</h1>
+			</header>
+		</div>
+	</div>
+</body>
+</html>

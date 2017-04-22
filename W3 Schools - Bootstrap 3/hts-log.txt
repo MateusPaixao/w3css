@@ -1,0 +1,17 @@
+HTTrack3.48-22+htsswf+htsjava launched on Tue, 18 Apr 2017 17:00:45 at https://www.w3schools.com/bootstrap/default.asp +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "pt_BR, en, *" https://www.w3schools.com/bootstrap/default.asp -O1 "C:\Meus Sites\W3 Schools - Bootstrap 3" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+17:08:18	Warning: 	Retry after error 504 (Gateway Timeout) at link https://www.w3schools.com/bootstrap/bootstrap_ref_css_buttons.asp (from https://www.w3schools.com/bootstrap/default.asp)
+17:14:57	Error: 	"Forbidden" (403) at link https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit (from https://www.w3schools.com/bootstrap/default.asp)
+17:15:19	Warning: 	Retry after error 504 () at link https://www.w3schools.com/bootstrap/bootstrap_ref_css_buttons.asp (from https://www.w3schools.com/bootstrap/default.asp)
+17:15:44	Error: 	"Not Found" (404) at link https://www.w3schools.com/bootstrap/POST (from https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_default&stacked=h)
+17:15:44	Error: 	"Not Found" (404) at link https://www.w3schools.com/bootstrap/GET (from https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_default&stacked=h)
+17:15:44	Error: 	"" (504) after 2 retries at link https://www.w3schools.com/bootstrap/bootstrap_ref_css_buttons.asp (from https://www.w3schools.com/bootstrap/default.asp)
+
+HTTrack Website Copier/3.48-22 mirror complete in 14 minutes 59 seconds : 935 links scanned, 928 files written (45883910 bytes overall) [14265490 bytes received at 15868 bytes/sec], 45670482 bytes transferred using HTTP compression in 926 files, ratio 28%, 1.0 requests per connection
+(4 errors, 2 warnings, 0 messages)
